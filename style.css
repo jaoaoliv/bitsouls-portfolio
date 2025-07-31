@@ -68,3 +68,51 @@ a:hover {
   height: auto;
   border-radius: 8px;
 }
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2rem;
+  color: #777;
+  background-color: #0d0d0d;
+}
+.footer a {
+  color: #64ffda;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  border-color: #64ffda;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #222;
+  color: #64ffda;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 6px;
+}
